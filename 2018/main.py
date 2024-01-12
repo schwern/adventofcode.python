@@ -1,10 +1,10 @@
 def main():
     with open("2018/input") as f:
         inputs = [int(line.rstrip()) for line in f]
-        print(calculate_frequency(inputs))
+        print(part_one(inputs))
 
 
-def calculate_frequency(changes):
+def part_one(changes):
     return sum(changes)
 
 
